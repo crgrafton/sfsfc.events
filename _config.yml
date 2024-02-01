@@ -5,7 +5,7 @@ baseurl: ""
 url: "https://sfstreetfaircoalition.org"
 
 # Build settings
-theme: null
+theme: minima
 
 exclude:
   - .sass-cache/

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 ---
 
 The **San Francisco Street Fair Coalition** (SFSFC) is a vibrant network of individuals and organizations dedicated to fostering San Francisco's unique street fair culture. Imagine a tapestry woven from the diverse threads of community-driven celebrations, artistic expression, culinary delights, and grassroots activism, all converging in the heart of the city's streets.
