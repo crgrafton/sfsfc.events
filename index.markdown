@@ -22,6 +22,6 @@ In essence, the San Francisco Street Fair Coalition is more than just an organiz
 
 ## Members
 
-- San Francisco LGBT Pride Parade and Celebration
+- San Francisco Pride
 - Folsom Street Fair
 - Castro Street Fair
