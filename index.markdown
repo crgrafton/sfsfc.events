@@ -19,3 +19,9 @@ Here's how the SFSFC brings this vision to life:
 **Visibility**: The Coalition raises the profile of San Francisco's street fairs on a local and national stage, showcasing the city's vibrant spirit and the economic, social, and cultural benefits of these lively gatherings.
 
 In essence, the San Francisco Street Fair Coalition is more than just an organization; it's a vibrant community, a passionate advocate, and a driving force behind the beating heart of San Francisco's street fair culture.
+
+## Members
+
+- San Francisco LGBT Pride Parade and Celebration
+- Folsom Street Fair
+- Castro Street Fair
