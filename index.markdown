@@ -4,6 +4,8 @@ layout: home
 
 The **San Francisco Street Fair Coalition** (SFSFC) is a vibrant network of individuals and organizations dedicated to fostering San Francisco's unique street fair culture. Imagine a tapestry woven from the diverse threads of community-driven celebrations, artistic expression, culinary delights, and grassroots activism, all converging in the heart of the city's streets.
 
+> [Donate to Support the Coalition](https://secure.givelively.org/donate/san-francisco-lesbian-gay-freedom-day-parade-celebration-committee-inc/san-francisco-street-fair-coalition)  
+
 Here's how the SFSFC brings this vision to life:  
 
 **Advocacy**: The SFSFC champions the value of street fairs, lobbying for fair permitting procedures, advocating for sufficient resources, and ensuring street fairs remain accessible to all communities.
