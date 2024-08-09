@@ -5,9 +5,6 @@ baseurl: ""
 url: "https://sfstreetfaircoalition.org"
 image: images/alllogos.png
 
-# Build settings
-theme: minima
-
 exclude:
   - .sass-cache/
   - .jekyll-cache/
