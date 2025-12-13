@@ -1,5 +1,50 @@
 ---
+permalink: /---
+layout: default
 permalink: /404.html
+---
+
+<style>
+  .error-page {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .error-content h1 {
+    font-size: 8rem;
+    font-weight: 700;
+    background: var(--sf-gradient-vibrant);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 1rem;
+  }
+  
+  .error-content h2 {
+    font-size: 2rem;
+    color: var(--sf-pride-purple);
+    margin-bottom: 1rem;
+  }
+  
+  .error-content p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 2rem;
+  }
+</style>
+
+<div class="error-page">
+  <div class="error-content">
+    <h1>404</h1>
+    <h2>Page Not Found</h2>
+    <p>Looks like this street fair got lost in the city!</p>
+    <a href="/" class="btn btn-lg" style="background: var(--sf-gradient); color: white; border: none;">Return Home</a>
+  </div>
+</div>
 layout: default
 ---
 

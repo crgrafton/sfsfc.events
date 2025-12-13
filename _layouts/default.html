@@ -2,14 +2,75 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>San Francisco Street Fair Coalition</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="The San Francisco Street Fair Coalition (SFSFC) is a vibrant network of organizations dedicated to fostering San Francisco's unique street fair culture.">
+	<meta name="keywords" content="San Francisco, street fair, Pride, Folsom Street Fair, Castro Street Fair, LGBTQ+, community events">
+	<meta property="og:title" content="San Francisco Street Fair Coalition">
+	<meta property="og:description" content="Community, Culture, and Commerce - Supporting SF's vibrant street fair culture">
+	<meta property="og:image" content="{{ site.url }}/images/alllogos.png">
+	<meta property="og:url" content="{{ site.url }}">
+	<meta name="twitter:card" content="summary_large_image">
+	
+	<title>{{ site.title }} | Community, Culture, and Commerce</title>
+	
 	<link rel="stylesheet" href="assets/main.css">
-
+	<link rel="icon" type="image/png" href="images/alllogos.png">
 </head>
 <body>
-	<div class="container">
-		{{content}}
-	</div>
+	{{content}}
+	
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="container">
+			<div class="row py-4">
+				<div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+					<p class="mb-1"><strong>San Francisco Street Fair Coalition</strong></p>
+					<p class="mb-0">Community, Culture, and Commerce</p>
+				</div>
+				<div class="col-md-6 text-center text-md-end">
+					<p class="mb-1">
+						<a href="mailto:{{ site.email }}">{{ site.email }}</a>
+					</p>
+					<p class="mb-0">
+						&copy; {{ 'now' | date: "%Y" }} SFSFC. All rights reserved.
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script>
+		// Smooth scroll for anchor links
+		document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+			anchor.addEventListener('click', function (e) {
+				e.preventDefault();
+				const target = document.querySelector(this.getAttribute('href'));
+				if (target) {
+					const navHeight = document.querySelector('.navbar').offsetHeight;
+					const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - navHeight - 20;
+					window.scrollTo({
+						top: targetPosition,
+						behavior: 'smooth'
+					});
+				}
+			});
+		});
+
+		// Navbar scroll effect
+		let lastScroll = 0;
+		const navbar = document.querySelector('.navbar');
+		
+		window.addEventListener('scroll', () => {
+			const currentScroll = window.pageYOffset;
+			
+			if (currentScroll > 100) {
+				navbar.style.boxShadow = '0 4px 30px rgba(0, 0, 0, 0.12)';
+			} else {
+				navbar.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.08)';
+			}
+			
+			lastScroll = currentScroll;
+		});
+	</script>
 </body>
 </html>
