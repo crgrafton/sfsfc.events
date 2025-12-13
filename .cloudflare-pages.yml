@@ -1,0 +1,8 @@
+# Cloudflare Pages Build Configuration
+build:
+  command: bundle exec jekyll build
+  destination: _site
+  
+environment:
+  JEKYLL_ENV: production
+  RUBY_VERSION: 3.2.2
